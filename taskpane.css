@@ -1,0 +1,91 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    color: #333;
+}
+.card-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+.card-header img {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.card-header h2 {
+    margin: 0;
+    color: #1D3557;
+    font-size: 1.3em;
+}
+.section {
+    margin-bottom: 20px;
+}
+.email-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+.email-details b {
+    color: #555;
+}
+
+/* Estilos del botón: fondo azul y sin gradiente */
+button {
+    padding: 12px 25px;
+    background-color: #0078d4;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #252850;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.result-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+.result-message {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: center;
+}
+.result-phishing {
+    background-color: #ffebe6;
+    color: #FF4D4D;
+    border: 1px solid #FF4D4D;
+}
+.result-safe {
+    background-color: #e6ffe6;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}

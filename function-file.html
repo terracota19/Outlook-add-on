@@ -1,0 +1,11 @@
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+<script>
+    function changeSubject(event) {
+        Office.context.mailbox.item.subject.setAsync("Nuevo Asunto", function (asyncResult) {
+            if (asyncResult.status === Office.AsyncResultStatus.Succeeded) {
+                console.log("Asunto cambiado con éxito.");
+            }
+            event.completed();
+        });
+    }
+</script>
