@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://terracota19.github.io/Outlook-add-on/index.html"/>
+        <SourceLocation DefaultValue="https://terracota19.github.io/Outlook-add-on"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -105,3 +105,4 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
+
