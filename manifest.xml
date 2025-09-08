@@ -91,7 +91,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Commands.Url" DefaultValue="https://terracota19.github.io/Outlook-add-on/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://terracota19.github.io/Outlook-add-on/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://terracota19.github.io/Outlook-add-on/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
@@ -105,5 +105,4 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
-
 
