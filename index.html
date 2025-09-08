@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Phishing Verifier with AI</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script src="taskpane.js"></script>
+    <link rel="stylesheet" href="taskpane.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card-header">
+            <div>
+                <h2>Email Analysis</h2>
+            </div>
+        </div>
+        <div class="section email-details">
+            <p id="from-display"></p>
+            <p id="to-display"></p>
+            <p id="subject-display"></p>
+            <p id="date-display"></p>
+            </div>
+        <div class="section">
+            <button id="verifyButton">Analyze Email</button>
+        </div>
+        <div id="result-section">
+            <div id="result-message" class="result-message" style="display: none;"></div>
+        </div>
+    </div>
+</body>
+</html>
