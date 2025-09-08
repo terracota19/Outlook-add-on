@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://terracota19.github.io/Outlook-add-on/assets/logo.jpg"/>
   <SupportUrl DefaultValue="https://terracota19.github.io/Outlook-add-on/help"/>
   <AppDomains>
-    <AppDomain>https://ceae25cb55d6.ngrok-free.app</AppDomain>
+    <AppDomain>https://terracota19.github.io/Outlook-add-on</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://terracota19.github.io/Outlook-add-on/taskpane.html"/>
+        <SourceLocation DefaultValue="https://terracota19.github.io/Outlook-add-on/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
