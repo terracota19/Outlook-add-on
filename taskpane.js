@@ -37,7 +37,7 @@ function verifyEmail() {
 
             const resultDiv = document.getElementById("result-message");
             resultDiv.style.display = "block";
-            resultDiv.innerHTML = "Analizando el correo...";
+            resultDiv.innerHTML = emailData;
             resultDiv.classList.remove("result-safe", "result-phishing");
 
             fetch('https://securemail-api-44381375902.europe-west1.run.app', {
@@ -88,3 +88,4 @@ function verifyEmail() {
     });
 
 }
+
