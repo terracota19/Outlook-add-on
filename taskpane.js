@@ -47,6 +47,8 @@ function verifyEmail() {
                 Date: item.dateTimeCreated.toISOString(),
                 Attachments: [] // Simplificado para no incluir archivos binarios
             };
+
+            console.log(JSON.stringify(emailData, null, 2));
             
             // Envía los datos a tu API
             fetch('https://securemail-api-44381375902.europe-west1.run.app', {
@@ -99,4 +101,5 @@ function verifyEmail() {
         }
     });
 }
+
 
