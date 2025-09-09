@@ -40,7 +40,7 @@ function verifyEmail() {
             resultDiv.innerHTML = "Analizando el correo...";
             resultDiv.classList.remove("result-safe", "result-phishing");
 
-            fetch('https://securemail-server-xfpk.onrender.com', {
+            fetch('https://securemail-api-44381375902.europe-west1.run.app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -86,4 +86,5 @@ function verifyEmail() {
             document.getElementById("result-message").innerText = "Error al obtener el cuerpo del correo.";
         }
     });
+
 }
